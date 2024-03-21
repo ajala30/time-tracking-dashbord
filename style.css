@@ -1,0 +1,192 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+color: white;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+html{
+  scroll-behavior: smooth;
+}
+.body{
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  width: 100%;
+  background-color: hsl(226, 43%, 10%) ;
+}
+.container{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+  width: 70%;
+  /* grid-auto-rows: 200px; */
+
+ 
+}
+.grid-item {
+  background-color: #f2f2f2; 
+  /* width: 250px; */
+  
+  text-align: center;
+  min-width: 100%;
+  max-width: 1250px;
+  gap: 6px;  
+  padding-top: 0;
+  border-radius: 10px;
+ 
+ 
+}
+.tall {
+  grid-row: span 2; 
+  background-color:hsl(235, 46%, 20%) ;
+}
+.img-div{
+  background-color: hsl(15, 100%, 70%); 
+  height: 5vh;
+  /* border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  */
+  
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+
+
+}
+
+.img-div
+.logo{
+  display: block; 
+  max-width: 100%;
+  margin-left: auto;
+  
+}
+
+.worklogo{
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  margin: 10px;
+}
+.hours{
+  color: white;
+  font-size:18px ;
+  font-weight: 400 ;
+  margin-bottom: 8px;
+}
+p{
+  color: white;
+  opacity: 25%;
+}
+.jimery{
+  height: 30vh;
+  background-color:hsl(246, 80%, 60%) ;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-top-right-radius: 6px;
+  border-top-left-radius: 6px;
+
+
+  
+}
+.jimmy-img{
+  border-radius: 50%;
+  border: 2px solid white;
+  width: 35%;
+
+}
+.jimdiv{
+  display: flex;
+  justify-self: flex-start;
+  padding-left: 20px;
+  padding: 20px;
+ 
+}
+.report{
+  text-align: left;
+  padding-left: 20px;
+  margin: 20px;
+  color: #f2f2f2;
+  font-weight: 400;
+  font-size: 16px;
+}
+.for{
+  opacity: 30%;
+}
+.daily{
+ 
+  padding-left: 20px;
+  text-align: left;
+}
+
+ .daily p{
+  padding: 6px;
+  margin: 10px;
+  text-align: left;
+ 
+}
+.left{
+  opacity: 100%;
+}
+
+
+
+.cover1{
+  background-color: blue;
+}
+
+.cover2{
+  background-color: hsl(145, 58%, 55%) ;
+}
+.cover3{
+  background-color:  hsl(195, 74%, 62%);
+}
+.cover4{
+  background-color: hsl(348, 100%, 68%);
+}
+.cover5{
+  background-color: hsl(264, 64%, 52%);
+}
+.cover6{
+  background-color:hsl(43, 84%, 65%) ;
+  }
+  
+.Study{
+  background-color:hsl(235, 46%, 20%);
+}
+
+.Social{
+  background-color:hsl(235, 46%, 20%);
+}
+
+.Self{
+  background-color:hsl(235, 46%, 20%);
+}
+.Work{
+  background-color:   hsl(235, 45%, 61%);
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  color: white;
+}
+.Exercise{
+  background-color:hsl(235, 46%, 20%) ;
+}
+.Play{
+  background-color: hsl(235, 46%, 20%) ; 
+ }
+
+@media only screen and (max-width: 400px), (max-width: 600px)  {
+  .container {
+    display: flex;
+    flex-direction: column;
+    height: dvh;
+    width: 100vw;
+    margin: 20px;
+    padding: 10px;
+    
+  }
+}
